@@ -165,8 +165,7 @@ function Approvals() {
                             ...timeSheet,
                             DocumentType: "Time_x0020_Sheets",
                             DocumentNo: timeSheet.timeSheetNo,
-                            SenderID: timeSheet.ResourceNo
-                            S
+                            SenderID: timeSheet.ResourceNo                          
                         };
                     });
 
