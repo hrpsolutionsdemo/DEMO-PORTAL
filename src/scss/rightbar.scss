@@ -1,0 +1,156 @@
+@import "../assets/scss/theme.scss";
+@import "./animation.scss";
+@import "./select.scss";
+.swal-on-top {
+  z-index: 10000 !important;
+}
+
+/* Optional: style the backdrop to be above the modal but below the alert */
+.swal2-backdrop-show {
+  z-index: 9999 !important;
+}
+
+/* Company Menu Styles */
+.company-menu .header-item {
+  color: #555b6d;
+  padding: 0 1.5rem;
+  height: 70px;
+  background-color: transparent;
+  border: 0;
+  display: flex;
+  align-items: center;
+}
+
+.company-menu .header-item:hover,
+.company-menu .header-item:focus {
+  color: #556ee6;
+}
+
+.company-menu .header-profile-icon {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.company-menu .dropdown-menu {
+  min-width: 180px;
+  padding: 0.25rem 0;
+  background-color: #fff;
+  border: 1px solid #eff2f7;
+  margin-top: 0;
+  box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03);
+}
+
+.company-menu .dropdown-item {
+  display: flex;
+  align-items: center;
+  padding: 0.65rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #495057;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  width: 100%;
+}
+
+.company-menu .dropdown-item:hover,
+.company-menu .dropdown-item:focus {
+  color: #556ee6;
+  background-color: #f8f9fa;
+  text-decoration: none;
+}
+
+.company-menu .dropdown-item.active {
+  color: #556ee6;
+  background-color: #f8f9fa;
+}
+
+// .radio-toolbar {
+//   label {
+//     display: inline-block;
+//     background-color: var(--#{$prefix}light);
+//     cursor: pointer;
+//     padding: 5px 10px;
+//     font-size: 14px;
+//     border-radius: 4px;
+//     position: relative;
+//   }
+//   input[type="radio"] {
+//     opacity: 0;
+//     position: fixed;
+//     width: 0;
+//     &:checked + label {
+//       background-color: $primary;
+//       border: none;
+//       color: $white;
+//     }
+//   }
+//   // color option
+//   &.coloropt-radio {
+//     input[type="radio"] {
+//       &:checked + label {
+//         &:after {
+//           content: "\F012C";
+//           position: absolute;
+//           font-family: "Material Design Icons";
+//           color: $white;
+//           font-size: 14px;
+//           top: 50%;
+//           left: 50%;
+//           transform: translateX(-50%) translateY(-50%);
+//         }
+//         &.bg-light {
+//           &:after {
+//             color: $primary;
+//           }
+//         }
+//       }
+//     }
+
+//     label {
+//       border: 1px solid $card-bg !important;
+//       &.bg-light {
+//         background-color: $card-bg;
+//         border-color: $primary !important;
+//       }
+//     }
+//   }
+
+//   // image option
+//   &.imgopt-radio {
+//     label {
+//       padding: 0;
+//       overflow: hidden;
+//       background: transparent;
+//     }
+//     input[type="radio"] {
+//       &:checked + label {
+//         &::before {
+//           content: "";
+//           position: absolute;
+//           left: 0;
+//           top: 0;
+//           width: 100%;
+//           height: 100%;
+//           background-color: rgba($primary, 0.6);
+//         }
+
+//         &:after {
+//           content: "\F012C";
+//           position: absolute;
+//           font-family: "Material Design Icons";
+//           color: $white;
+//           font-size: 14px;
+//           top: 50%;
+//           left: 50%;
+//           transform: translateX(-50%) translateY(-50%);
+//         }
+//       }
+//     }
+//   }
+// }
+
+// #radio-title {
+//   margin-bottom: 5px;
+// }
